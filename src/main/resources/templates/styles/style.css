@@ -1,0 +1,70 @@
+@charset "ISO-8859-1";
+*{
+	margin: 0;
+	padding: 0;
+}
+header{
+	height: 400px;;
+	width: 100%;
+}
+
+header img {
+	height: 400px;
+	width: 100%;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ NAV ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+nav{
+	height: 100px;
+	width: 100%;
+	background-color: yellow;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+li {
+	float: left;
+  }
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ BODY ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.conteiner{
+	height:200px;
+	display: table;
+	width: 100%;
+}
+
+section{
+	height:100%;
+	width: 70%;
+	background-color: pink;
+	float: left;
+}
+
+aside{
+	height:100%;
+	width: 30%;
+	background-color: yellow;
+	float: right;
+}
+
+
+footer{
+	height: 200px;
+	width: 100%;
+	background-color: black;
+}
+
